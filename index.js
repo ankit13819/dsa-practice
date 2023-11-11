@@ -14,7 +14,7 @@
 //* if(temp[arr[i]]==0) temp[arr[i]=1]
 //Traverse temp[] and output the array element value as 0 (This is the missing number)
 
-console.log("find the missing Number solution is");
+// console.log("find the missing Number solution is");
 
 function findTheMissingNumber(arr, N) {
   let i = 0;
@@ -37,4 +37,14 @@ function findTheMissingNumber(arr, N) {
 }
 let arr = [1, 3, 7, 5, 6, 2, 4, 9];
 let n = arr.length;
-findTheMissingNumber(arr, n);
+// findTheMissingNumber(arr, n);
+
+//2nd Method->
+
+function getMissingNumber(arr, N) {
+  let i = 0;
+  for (i = 0; i <= N; i++) {
+    console.log(i);
+  }
+}
+getMissingNumber(arr, n);
